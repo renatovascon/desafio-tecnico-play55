@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white shadow px-6 py-4">
+  <header class="fixed top-0 w-full z-50 bg-white shadow px-6 py-4">
     <div class="grid grid-cols-[auto_1fr_auto] items-center max-w-7xl mx-auto w-full gap-4">
       <h1 class="text-xl font-bold text-gray-900">MinhaLoja</h1>
       <div class="flex justify-center">
