@@ -29,8 +29,8 @@
 
 <script setup lang="ts">
 import { defineProps, defineEmits } from 'vue'
-import { useContactForm } from '../composables/useContactForm'
-import Button from './ui/BaseButton.vue'
+import { useContactForm } from '../../composables/useContactForm'
+import Button from '../ui/BaseButton.vue'
 
 const props = defineProps<{ show: boolean }>()
 const emit = defineEmits(['update:show', 'sent'])

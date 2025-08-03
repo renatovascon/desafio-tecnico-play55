@@ -1,4 +1,3 @@
-// stores/products.ts
 import { defineStore } from 'pinia'
 import type { Product } from '../types/product'
 import { ref, computed } from 'vue'

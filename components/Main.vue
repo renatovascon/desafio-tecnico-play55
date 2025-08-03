@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import ProductList from './ProductList.vue';
+import ProductList from './products/ProductList.vue';
 </script>
 <style scoped>
 .main {

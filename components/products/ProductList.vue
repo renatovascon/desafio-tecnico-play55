@@ -25,11 +25,11 @@
 </template>
 
 <script setup lang="ts">
-import ProductCard from './ui/ProductCard.vue'
-import { useProductList } from '../composables/useProductList'
-import HeartIcon from './ui/icons/HeartIcon.vue'
-import { useProductsStore } from '../stores/products'
-import Button from './ui/BaseButton.vue'
+import ProductCard from '../cart/ProductCard.vue'
+import { useProductList } from '../../composables/useProductList'
+import HeartIcon from '../ui/icons/HeartIcon.vue'
+import { useProductsStore } from '../../stores/products'
+import Button from '../ui/BaseButton.vue'
 
 const productsStore = useProductsStore()
 

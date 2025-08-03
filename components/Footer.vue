@@ -32,6 +32,6 @@
 </template>
 
 <script setup lang="ts">
-import ContactForm from './ContactForm.vue';
+import ContactForm from './forms/ContactForm.vue';
 
 </script>

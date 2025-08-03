@@ -16,9 +16,9 @@
 <script setup lang="ts">
 import Header from '../components/Header.vue'
 import Main from '../components/Main.vue'
-import ContactForm from '../components/ContactForm.vue'
+import ContactForm from '../components/forms/ContactForm.vue'
 import Footer from '../components/Footer.vue'
-import CartModal from '../components/CartModal.vue'
+import CartModal from '../components/cart/CartModal.vue'
 import { ref } from 'vue'
 
 const showCart = ref(false)
