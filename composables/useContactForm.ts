@@ -66,6 +66,10 @@ export function useContactForm(emit: ContactFormEmit) {
     const grecaptcha = (window as any).grecaptcha
     const token = await grecaptcha.execute('6LfTVC8rAAAAAISI8s59lF0JcXMq_XfgsHsepO5U', { action: 'form_submit' })
 
+    Object.keys(form).forEach(key => {
+      form[key as keyof typeof form] = ''
+    })
+  
     emit('sent')
     emit('update:show', false)
   }
