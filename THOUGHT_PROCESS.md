@@ -1,7 +1,7 @@
 # Processo de Decisão: Evolução do Carrinho de Compras Interativo
 
 **Data:** 2025-08-02
-**Autor:** [Seu Nome/Time]
+**Autor:** Renato Vasconcelos
 **Contexto:** Evoluir o carrinho de compras de uma loja online Vue.js existente para incluir validação de estoque em tempo real e aplicação/validação de cupons de desconto, com foco em resiliência e feedback claro ao usuário.
 
 ---
